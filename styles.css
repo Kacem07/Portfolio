@@ -1,0 +1,75 @@
+/* Stile base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+h1, h2, h3 {
+    color: #0073e6;
+}
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sezioni */
+section {
+    margin: 40px 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+.project {
+    margin-bottom: 20px;
+}
+
+/* Form */
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #0073e6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form button:hover {
+    background: #005bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #0073e6;
+    color: white;
+    padding: 10px 0;
+}

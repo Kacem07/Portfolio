@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Personale</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Ciao, sono <span>Il Tuo Nome</span></h1>
+            <p>Un professionista appassionato di [il tuo campo].</p>
+            <nav>
+                <a href="#about">Chi Sono</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Chi Sono</h2>
+            <p>Sono uno [il tuo ruolo], specializzato in [le tue competenze principali]. Amo creare soluzioni innovative e lavorare su progetti che fanno la differenza.</p>
+            <ul>
+                <li><strong>Competenze principali:</strong> [esempio: Sviluppo Web, Design Grafico, ecc.]</li>
+                <li><strong>Esperienza:</strong> [anni di esperienza o ruoli significativi]</li>
+                <li><strong>Passioni:</strong> [esempio: tecnologia, arte, ecc.]</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <div class="project">
+                <h3>Progetto 1</h3>
+                <p>Descrizione del progetto. <a href="#">Guarda il progetto</a></p>
+            </div>
+            <div class="project">
+                <h3>Progetto 2</h3>
+                <p>Descrizione del progetto. <a href="#">Guarda il progetto</a></p>
+            </div>
+            <div class="project">
+                <h3>Progetto 3</h3>
+                <p>Descrizione del progetto. <a href="#">Guarda il progetto</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contattami</h2>
+            <p>Compila il modulo o scrivimi sui miei social!</p>
+            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Messaggio:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Invia</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Il Tuo Nome. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
